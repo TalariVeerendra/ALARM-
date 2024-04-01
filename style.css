@@ -1,0 +1,52 @@
+body{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 30rem;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #cecdcd;
+    color: #fff;
+}
+#myBox{
+    width: 100%;
+    box-sizing: border-box;
+    border: solid 5px #969dd9;
+    height: 400px;
+    border: 5%;
+    padding-top: 85px;
+    margin-top: 90px;
+    background-color: #2b7b91;
+}
+#time{
+    font-size: 65px;
+    margin-top: -65px;
+}
+h3{
+    color: #6edf04;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#alarmHrs,#alarmMins,#alarmSecs,#mySelect{
+    width: 100px;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    width: 100px;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 14px 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #b4b4b7;
+}
